@@ -16,24 +16,24 @@
     <meta property="og:image" content="../images/icon_preview.jpg"/>
 
     <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/game.css?v=5" type="text/css">
+    <link rel="stylesheet" href="../css/game.css?v=1548857255076" type="text/css">
     <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
     <link rel="stylesheet" href="../css/hover.css" type="text/css">
     <link rel="stylesheet" href="../css/simplebar.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css?v=5" type="text/css">
-    <link rel="stylesheet" href="../css/play.css?v=5" type="text/css">
+    <link rel="stylesheet" href="../css/style.css?v=1548857255076" type="text/css">
+    <link rel="stylesheet" href="../css/play.css?v=1548857255076" type="text/css">
 
     <script src="../js/dest/jquery-2.1.4.min.js"></script>
     <script src="../js/dest/jquery.actual.js"></script>
     <script src="../js/dest/countUp.js"></script>
-    <script src="../js/dest/wow.js"></script>
+    <script src="../js/dest/wow.js?v=1548857255076"></script>
     <script src="../js/dest/bootstrap.min.js"></script>
     <script src="../js/dest/tippy.min.js"></script>
     <script src="../js/dest/sweetalert.min.js"></script>
-    <script src="../js/dest/tronapp.js?v=5"></script>
-    <script src="../js/dest/app.js?v=5"></script>
-    <script src="./index.js?v=5"></script>
+    <script src="../js/dest/tronapp.js?v=1548857255076"></script>
+    <script src="../js/dest/app.js?v=1548857255076"></script>
+    <script src="./index.js?v=1548857255076"></script>
 
 </head>
 <body style="opacity: 0">
@@ -129,9 +129,9 @@
                                     </div>
                                     <div style="height: 10px; padding: 0"></div>
                                     <a class="btn-card-outer">
-                                        <button id="btn-tronscan" class="btn-card btn-white hvr-grow">
-                                            <i class="fas fa-search"></i>
-                                            <span>tronscan</span>
+                                        <button id="btn-scoreboard" class="btn-card btn-white hvr-grow">
+                                            <i style="transform: translateY(-0.5px)" class="fas fa-medal"></i>
+                                            <span>Топ игроков</span>
                                         </button>
                                     </a>
                                 </div>
@@ -269,6 +269,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="modal fade" id="scoreboardModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div id="scoreboardModalInner" class="modal-dialog ms-modal">
+
         </div>
     </div>
 </body>
